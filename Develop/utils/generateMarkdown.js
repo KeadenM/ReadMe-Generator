@@ -15,4 +15,24 @@ function licensedBadge(license){
       return'';
 }
 }
-module.exports = generateMarkdown;
+
+function licenseLink(license) {
+switch (license) {
+  case 'MIT':
+    return 'https://opensource.org/licenses/MIT';
+  case 'Apache':
+    return 'https://opensource.org/licenses/Apache-2.0';
+  case 'GNU General':
+    return 'https://www.gnu.org/licenses/gpl-3.0';
+  case 'BSD':
+    return 'https://opensource.org/licenses/BSD-3-Clause';
+  case 'GNU Lesser':
+    return 'https://www.gnu.org/licenses/lgpl-3.0';
+  case 'None':
+  deafult:
+  return'';
+}
+}
+module.exports = {
+  licensedBadge, licenseLink
+};
