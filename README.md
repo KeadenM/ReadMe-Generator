@@ -15,19 +15,29 @@ Every project needs to have a ReadMe to get actual attention, in that you need t
 - [Questions](#questions)
 
 ## Installation
-Clone the repository to your local machine. You can use either the SSH or HTTPS URL:
+1. Clone the repo to your local machine You can use either the SSH or HTTPS URL: SSH: git@github.com:KeadenM/ReadMe-Generator.git HTTPS: https://github.com/KeadenM/ReadMe-Generator.git
 
 ## Usage
-SSH: git@github.com:KeadenM/ReadMe-Generator.git HTTPS: https://github.com/KeadenM/ReadMe-Generator.git
+Open a terminal or command prompt.
+Navigate to the project directory.
+Run node index.js.
+Answer the prompts to provide information about your project, such as the title, description, installation instructions, usage information, contribution guidelines, and test instructions.
+After answering all the prompts, a README.md file will be generated in the project directory, containing the information you provided.
 
 ## Contributing
-undefined
+This README Generator wouldn't be possible without the following resources and tools:
+
+Node.js: A JavaScript runtime built on Chrome's V8 JavaScript engine, enabling the creation of scalable and efficient applications.
+
+Inquirer: A powerful command-line interface (CLI) library for Node.js that allows users to interact with the application and provide input in an intuitive manner. npm (Node Package Manager): The world's largest software registry, providing access to countless packages, tools, and libraries that greatly simplify the development process.
+
+File System (fs): A built-in Node.js module that enables interaction with the file system, allowing for the reading and writing of files. package.json: A crucial file in any Node.js project that contains metadata about the project, such as its name, version, dependencies, and scripts.
 
 ## Tests
-Navigate to the project directory by running cd README.GENERATOR.
+Navigate to the project directory.
 
 ## Questions
-If you have any questions my github is: Install Node.js on your machine if you haven't already. You can download it from the official website: https://nodejs.org/.. You can also reach me via email at: Install the necessary dependencies by running npm install in your terminal. This command will install the required packages listed in the package.json file, such as Inquirer.
+If you have any questions my github is: https://github.com/KeadenM  You can also reach me via email at: Keadenmeacham@gmail.com
 
 ## License
 MIT https://opensource.org/licenses/MIT
