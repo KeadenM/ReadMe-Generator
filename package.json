@@ -6,8 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KeadenM/ReadMe-Generator.git"
+  },
+  "author": "Keaden Meacham",
   "license": "ISC",
+  "bugs":{
+    "url": "https://github.com/KeadenM/README.generator/issues"
+  },
+  "homepage": "https://github.com/KeadenM/README.generator#readme",
   "dependencies": {
     "inquirer": "8.2.4"
   }
