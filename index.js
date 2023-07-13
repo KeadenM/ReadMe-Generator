@@ -1,10 +1,10 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-const {licenseBadge, LicenseLink} = require ('./utils/generateMarkdown.js')
+const {licenseBadge, licenseLink} = require ('./utils/generateMarkdown.js')
 
 function createReadMe(name, description, installation, usage, contribute, tests, github, email, license) {
     const renderLicenseBadge = licenseBadge(license);
-    const renderLicenseLink =licenseLink(license);
+    const renderLicenseLink = licenseLink(license);
 
     return `
 # ${name}
