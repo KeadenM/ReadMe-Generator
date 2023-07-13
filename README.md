@@ -33,9 +33,6 @@ Inquirer: A powerful command-line interface (CLI) library for Node.js that allow
 
 File System (fs): A built-in Node.js module that enables interaction with the file system, allowing for the reading and writing of files. package.json: A crucial file in any Node.js project that contains metadata about the project, such as its name, version, dependencies, and scripts.
 
-## Tests
-Navigate to the project directory.
-
 ## Questions
 If you have any questions my github is: https://github.com/KeadenM  You can also reach me via email at: Keadenmeacham@gmail.com
 
